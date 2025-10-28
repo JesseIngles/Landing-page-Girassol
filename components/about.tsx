@@ -42,7 +42,7 @@ export function About() {
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-            <Image src="/modern-school-campus-students.png" alt="Campus Girassol" fill className="object-cover" />
+            <Image src="/banner-girassol-finalistas.jpg" alt="Campus Girassol" fill className="object-cover" />
           </div>
 
           <div className="space-y-6">

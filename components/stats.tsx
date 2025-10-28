@@ -4,8 +4,8 @@ export function Stats() {
   const stats = [
     {
       icon: Users,
-      value: "5000+",
-      label: "Alunos Matriculados",
+      value: "4000+",
+      label: "Alunos Estudantes",
     },
     {
       icon: GraduationCap,
@@ -14,7 +14,7 @@ export function Stats() {
     },
     {
       icon: BookOpen,
-      value: "15+",
+      value: "11+",
       label: "Cursos Disponíveis",
     },
     {

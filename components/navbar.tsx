@@ -49,23 +49,23 @@ export function Navbar() {
 
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? "bg-primary/98 backdrop-blur-lg shadow-xl lg:top-10" : "bg-transparent lg:top-10"
+          "bg-primary/98 backdrop-blur-lg shadow-xl lg:top-10" 
         }`}
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20 lg:h-24">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-14 h-14 lg:w-16 lg:h-16 transition-transform group-hover:scale-105">
+            <Link href="/" className="flex items-center border:rounded gap-3 group">
+              <div className="relative w-14 h-14 lg:w-24 lg:h-24 transition-transform group-hover:scale-105">
                 <Image src="/logo.png" alt="Girassol Logo" fill className="object-contain" />
               </div>
               <div className="hidden md:block">
-                <span className="text-white font-bold text-lg lg:text-xl block leading-tight">Complexo Escolar</span>
-                <span className="text-accent font-semibold text-sm lg:text-base">Girassol</span>
+                <span className="text-accent font-semibold text-sm lg:text-base">Complexo Escolar Girassol</span>
               </div>
             </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-8">
+              <div></div>
               {navLinks.map((link) => (
                 <Link
                   key={link.href}

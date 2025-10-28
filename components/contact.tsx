@@ -82,21 +82,21 @@ export function Contact() {
                   className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white hover:bg-accent hover:text-primary transition-all hover:scale-110"
                   aria-label="Facebook"
                 >
-                  <Facebook size={24} />
+                  <Facebook size={24} href="https://www.facebook.com/cegirassol/?locale=pt_BR"/>
                 </a>
                 <a
                   href="#"
                   className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white hover:bg-accent hover:text-primary transition-all hover:scale-110"
                   aria-label="Instagram"
                 >
-                  <Instagram size={24} />
+                  <Instagram size={24} href="https://www.instagram.com/complexo.escolargirassol/?hl=en"/>
                 </a>
                 <a
                   href="#"
                   className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white hover:bg-accent hover:text-primary transition-all hover:scale-110"
                   aria-label="YouTube"
                 >
-                  <Youtube size={24} />
+                  <Youtube size={24}  href="#"/>
                 </a>
               </div>
             </div>

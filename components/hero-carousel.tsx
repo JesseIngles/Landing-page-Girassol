@@ -10,37 +10,10 @@ const slides = [
     id: 1,
     title: "Labor Omnia Vincit",
     subtitle: "O Trabalho Vence Tudo",
-    description: "Formando gerações brilhantes com excelência académica e valores sólidos desde 1995",
-    image: "/modern-school-campus-students.png",
+    description: "Formando gerações brilhantes com excelência académica e valores sólidos desde 2011.",
+    image: "/banner-girassol-finalistas.jpg",
     cta: "Conheça Nossa História",
     ctaLink: "#sobre",
-  },
-  {
-    id: 2,
-    title: "Inscrições Abertas 2025",
-    subtitle: "Ensino Geral e Técnico Profissional",
-    description: "Matrículas abertas para todos os níveis. Garanta já a sua vaga e faça parte da nossa família!",
-    image: "/modern-classroom-study.png",
-    cta: "Inscreva-se Agora",
-    ctaLink: "#contactos",
-  },
-  {
-    id: 3,
-    title: "Cursos Técnicos de Excelência",
-    subtitle: "Contabilidade • Informática • Eletricidade • Mecânica",
-    description: "Formação profissional de qualidade com professores especializados e infraestruturas modernas",
-    image: "/technical-training-laboratory-with-equipment.jpg",
-    cta: "Explorar Cursos",
-    ctaLink: "#cursos",
-  },
-  {
-    id: 4,
-    title: "Infraestruturas de Ponta",
-    subtitle: "Laboratórios • Biblioteca Digital • Salas Multimédia",
-    description: "Ambiente propício ao aprendizado com tecnologia moderna e espaços inspiradores",
-    image: "/modern-school-facilities-and-library.jpg",
-    cta: "Ver Instalações",
-    ctaLink: "#instalacoes",
   },
 ]
 
@@ -166,20 +139,7 @@ export function HeroCarousel() {
         </div>
       ))}
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-6 top-1/2 -translate-y-1/2 z-20 glass-dark text-white p-4 rounded-full transition-all hover:scale-110 hover:bg-white/20"
-        aria-label="Previous slide"
-      >
-        <ChevronLeft size={28} strokeWidth={2.5} />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-6 top-1/2 -translate-y-1/2 z-20 glass-dark text-white p-4 rounded-full transition-all hover:scale-110 hover:bg-white/20"
-        aria-label="Next slide"
-      >
-        <ChevronRight size={28} strokeWidth={2.5} />
-      </button>
+      
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-3">
         {slides.map((_, index) => (
