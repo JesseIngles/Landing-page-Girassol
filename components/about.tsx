@@ -55,10 +55,13 @@ export function About() {
               Com mais de uma década de experiência, temos o compromisso de iluminar o caminho para o sucesso
               profissional e pessoal dos nossos alunos, preparando-os para os desafios do mercado de trabalho moderno.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
-              Guiados pelo lema <strong className="text-primary">"Labor Omnia Vincit"</strong> (O Trabalho Vence Tudo),
-              cultivamos valores de dedicação, excelência e responsabilidade social em cada estudante.
-            </p>
+            {/*
+              <p className="text-lg text-foreground/80 leading-relaxed">
+                Guiados pelo lema <strong className="text-primary">"Labor Omnia Vincit"</strong> (O Trabalho Vence Tudo),
+                cultivamos valores de dedicação, excelência e responsabilidade social em cada estudante.
+              </p>
+              */
+            }
           </div>
         </div>
 
