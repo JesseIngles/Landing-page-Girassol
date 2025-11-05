@@ -29,7 +29,7 @@ export function Navbar() {
 
   return (
     <>
-      <div className="bg-primary text-white py-2 hidden lg:block">
+      <div className="bg-primary text-white py-2 hidden lg:block lg:top-10">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
             <a href="tel:+244923456789" className="flex items-center gap-2 hover:text-accent transition-colors">
@@ -49,7 +49,7 @@ export function Navbar() {
 
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          "bg-primary/98 backdrop-blur-lg shadow-xl lg:top-10" 
+          "lg:top-10" 
         }`}
       >
         <div className="container mx-auto px-4">

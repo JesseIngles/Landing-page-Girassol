@@ -12,12 +12,36 @@ export function Courses() {
 
   const courses = [
     {
+      title: "Mecânica",
+      category: "tecnico" as const,
+      duration: "4 anos",
+      level: "Ensino Técnico",
+      description: "Preparação técnica em mecânica automotiva e industrial.",
+      image: "/cursomecanica.jpeg",
+    },
+    {
+      title: "Eletro-Mecânica",
+      category: "tecnico" as const,
+      duration: "4 anos",
+      level: "Ensino Técnico",
+      description: "Preparação técnica em mecânica automotiva e industrial.",
+      image: "/eletromecanica.jpeg",
+    },
+    {
+      title: "Instrumentação e Automação",
+      category: "tecnico" as const,
+      duration: "4 anos",
+      level: "Ensino Técnico",
+      description: "Preparação técnica em mecânica automotiva e industrial.",
+      image: "/eletromecanica.jpeg",
+    },
+    {
       title: "Ensino Geral - 7ª à 9ª Classe",
       category: "geral" as const,
       duration: "3 anos",
       level: "Ensino Geral",
       description: "Formação básica completa com disciplinas fundamentais para o desenvolvimento académico.",
-      image: "/modern-classroom-study.png",
+      image: "/banner-girassol-finalistas.jpg",
     },
     {
       title: "Ensino Geral - 10ª à 12ª Classe",
@@ -25,7 +49,7 @@ export function Courses() {
       duration: "3 anos",
       level: "Ensino Geral",
       description: "Preparação para o ensino superior com foco em ciências, humanidades e línguas.",
-      image: "/high-school-classroom.png",
+      image: "/banner-girassol-finalistas.jpg",
     },
     {
       title: "Pesquisa, perfuração e Produção de Petróleo",
@@ -33,7 +57,7 @@ export function Courses() {
       duration: "4 anos",
       level: "Ensino Técnico",
       description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
+      image: "/eletromecanica.jpeg",
     },
     {
       title: "Refinação e Gás",
@@ -41,7 +65,7 @@ export function Courses() {
       duration: "4 anos",
       level: "Ensino Técnico",
       description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
+      image: "/eletromecanica.jpeg",
     },
     {
       title: "Geologia e Minas",
@@ -49,7 +73,7 @@ export function Courses() {
       duration: "4 anos",
       level: "Ensino Técnico",
       description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
+      image: "/eletromecanica.jpeg",
     },
     {
       title: "Contabilidade e Gestão",
@@ -57,7 +81,7 @@ export function Courses() {
       duration: "4 anos",
       level: "Ensino Técnico",
       description: "Formação técnica em contabilidade, finanças e gestão empresarial.",
-      image: "/accounting-students-with-computers.jpg",
+      image: "/Informatica.jpeg",
     },
     {
       title: "Informática",
@@ -65,7 +89,7 @@ export function Courses() {
       duration: "4 anos",
       level: "Ensino Técnico",
       description: "Desenvolvimento de competências em programação, redes e sistemas de informação.",
-      image: "/computer-science-students-coding.jpg",
+      image: "/Informatica.jpeg",
     },
     {
       title: "Eletrónica e Telecomunicações",
@@ -75,30 +99,7 @@ export function Courses() {
       description: "Formação em instalações elétricas, manutenção e sistemas de energia.",
       image: "/electrical-engineering-students-with-equipment.jpg",
     },
-    {
-      title: "Mecânica",
-      category: "tecnico" as const,
-      duration: "4 anos",
-      level: "Ensino Técnico",
-      description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
-    },
-    {
-      title: "Eletro-Mecânica",
-      category: "tecnico" as const,
-      duration: "4 anos",
-      level: "Ensino Técnico",
-      description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
-    },
-    {
-      title: "Instrumentação e Automação",
-      category: "tecnico" as const,
-      duration: "4 anos",
-      level: "Ensino Técnico",
-      description: "Preparação técnica em mecânica automotiva e industrial.",
-      image: "/mechanical-engineering-students-workshop.jpg",
-    },
+    
 
   ]
 
@@ -185,13 +186,7 @@ export function Courses() {
                     <span>Certificado</span>
                   </div>
                 </div>
-                <Button
-                  variant="outline"
-                  className="w-full group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all bg-transparent"
-                >
-                  Saber Mais
-                  <BookOpen className="ml-2" size={16} />
-                </Button>
+              
               </div>
             </div>
           ))}

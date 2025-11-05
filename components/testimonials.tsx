@@ -11,11 +11,11 @@ export function Testimonials() {
       image: "/placeholder.svg?key=tes1a",
     },
     {
-      name: "João Mendes",
-      role: "Ex-Aluno - Informática",
+      name: "Jessé Inglês",
+      role: "Ex-Aluno - Técnico Informática",
       content:
-        "Os professores são excelentes e as infraestruturas modernas. Aprendi muito e hoje sou desenvolvedor de software graças à base que recebi aqui.",
-      image: "/placeholder.svg?key=tes2b",
+        "Tive excelentes professores e mentores para a vida. Aprendi muito e hoje sou desenvolvedor de software graças à base que recebi aqui.",
+      image: "https://avatars.githubusercontent.com/u/137011652?v=4",
     },
     {
       name: "Maria Costa",

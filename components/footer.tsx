@@ -15,7 +15,8 @@ export function Footer() {
               <span className="text-xl font-bold">Complexo Escolar Girassol</span>
             </div>
             <p className="text-white/80 leading-relaxed mb-4">
-              A iluminar o conhecimento, a construir o futuro. Formação de excelência em Luanda, Angola.
+              Promover um ensino técnico profissionalizante, usando ferramentas metodológicas que primam pela formação tecnológica, científica e humanizada.
+
             </p>
             <p className="text-accent font-semibold">Labor Omnia Vincit</p>
           </div>
@@ -56,9 +57,9 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Parceiros</h3>
             <ul className="space-y-2 text-white/80">
-              <li>Ministério da Educação</li>
-              <li>INEFOP</li>
-              <li>Universidades Parceiras</li>
+              <li>Sonangol E.P.</li>
+              <li>Sonangol Pesquisa e Produção S.A</li>
+              <li>Instituto Nacional de Petróleos - INP</li>
             </ul>
           </div>
         </div>
@@ -68,7 +69,6 @@ export function Footer() {
           <p className="text-white/80 text-sm">
             © {currentYear} Complexo Escolar Girassol. Todos os direitos reservados.
           </p>
-          <p className="text-white/60 text-sm">Desenvolvido com ❤️ para a educação em Angola</p>
         </div>
       </div>
     </footer>
