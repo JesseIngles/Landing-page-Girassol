@@ -121,7 +121,7 @@ export function Courses() {
     duration: "4 anos",
     level: "Ensino Técnico",
     description: "Fornece conhecimentos em desenho técnico, compreendendo as fases de projeto e execução de obras, além do uso eficiente do AutoCAD.",
-    image: "/desenhadorprojectista.jpeg",
+    image: "/desenhoProjectista.jpeg",
   },  
 ];
 
