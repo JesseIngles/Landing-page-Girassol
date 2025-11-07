@@ -34,7 +34,7 @@ export function Navbar() {
           <div className="flex items-center gap-6">
             <a href="tel:+244923456789" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone size={14} />
-              <span>+244 923 456 789</span>
+              <span>+244 925 575 783</span>
             </a>
             <a href="mailto:info@girassol.ao" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Mail size={14} />

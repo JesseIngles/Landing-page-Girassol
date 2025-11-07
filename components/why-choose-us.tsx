@@ -40,7 +40,7 @@ export function WhyChooseUs() {
           </div>
 
           <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-            <Image src="/modern-classroom-study.png" alt="Sala de aula moderna" fill className="object-cover" />
+            <Image src="/atividadesextras.jpeg" alt="Sala de aula moderna" fill className="object-cover" />
           </div>
         </div>
       </div>

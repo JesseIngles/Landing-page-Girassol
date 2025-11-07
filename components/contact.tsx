@@ -55,8 +55,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-primary mb-1">Telefone</h4>
-                    <p className="text-muted-foreground">+244 923 456 789</p>
-                    <p className="text-muted-foreground">+244 912 345 678</p>
+                    <p className="text-muted-foreground">+244 925 575 783</p>
+                    <p className="text-muted-foreground">+244 945 117 053</p>
                   </div>
                 </div>
 
@@ -91,20 +91,14 @@ export function Contact() {
                 >
                   <Instagram size={24} href="https://www.instagram.com/complexo.escolargirassol/?hl=en"/>
                 </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white hover:bg-accent hover:text-primary transition-all hover:scale-110"
-                  aria-label="YouTube"
-                >
-                  <Youtube size={24}  href="#"/>
-                </a>
+                
               </div>
             </div>
 
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border-2 border-border h-64 shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.4!2d13.234!3d-8.838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNTAnMTYuOCJTIDEzwrAxNCcwMi40IkU!5e0!3m2!1sen!2sao!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.832951381216!2d13.177437175018456!3d-8.988565691071166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a521f841e9df9e5%3A0x4e2922e4cdfbba68!2sComplexo%20Escolar%20Politecnico%20Girassol!5e1!3m2!1spt-PT!2sao!4v1762524161189!5m2!1spt-PT!2sao"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -149,14 +143,14 @@ export function Contact() {
                 />
               </div>
 
-              <div>
+              <div> 
                 <label htmlFor="message" className="block text-sm font-semibold text-primary mb-2">
                   Mensagem
                 </label>
                 <Textarea
                   id="message"
                   placeholder="Como podemos ajudá-lo?"
-                  rows={5}
+                  rows={10}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required

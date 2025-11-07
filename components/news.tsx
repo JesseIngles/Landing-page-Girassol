@@ -8,24 +8,24 @@ export function News() {
   const news = [
     {
       title: "Matrículas Abertas para 2025",
-      date: "15 de Janeiro, 2025",
+      date: "27 de Julho, 2025",
       category: "Matrículas",
       excerpt: "Inscrições abertas para todos os níveis de ensino. Garanta já a sua vaga!",
-      image: "/placeholder.svg?key=bnxqr",
+      image: "/matricula.jpeg",
     },
     {
-      title: "Cerimónia de Graduação 2024",
+      title: "Primeiro Estudantes Angolanos a visitar a Sonangol Refinaria de Luanda",
       date: "20 de Dezembro, 2024",
       category: "Eventos",
       excerpt: "Celebramos o sucesso dos nossos formandos com uma cerimónia memorável.",
-      image: "/placeholder.svg?key=qlmzp",
+      image: "/visitarefinaria.jpeg",
     },
     {
-      title: "Novos Laboratórios de Informática",
+      title: "Requalificação do Laboratório de Informática",
       date: "10 de Dezembro, 2024",
       category: "Infraestrutura",
       excerpt: "Investimento em tecnologia com novos laboratórios equipados com computadores modernos.",
-      image: "/technical-training-laboratory-with-equipment.jpg",
+      image: "/labInformatica.jpg",
     },
   ]
 
@@ -43,7 +43,7 @@ export function News() {
           </p>
         </div>
 
-        <div className="mb-12 bg-gradient-to-r from-accent/20 to-accent/10 border-l-4 border-accent rounded-xl p-8 shadow-lg">
+        {/*<div className="mb-12 bg-gradient-to-r from-accent/20 to-accent/10 border-l-4 border-accent rounded-xl p-8 shadow-lg">
           <div className="flex items-start gap-4">
             <div className="w-14 h-14 bg-accent rounded-full flex items-center justify-center flex-shrink-0 text-2xl">
               📢
@@ -55,7 +55,8 @@ export function News() {
               </p>
             </div>
           </div>
-        </div>
+        </div>*/
+}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {news.map((item, index) => (
